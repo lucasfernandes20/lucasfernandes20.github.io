@@ -3,39 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+        body{
+            background-color: rgb(255, 234, 167);
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 20px;
+        }
+        #Nome{
+            font-size: 35px;
+        }
+        #MinhaFoto{
+            border-radius: 8px;
+        }
+        .About{
+            background-color: rgb(23, 61, 23);
+            color: #fff;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 400;
+            padding: 15px;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            background-color: #fff;
+            padding: 35px;
+            font-size: 65px;
+        }
+        .Borda{
+            border-radius: 25px;
+        }
+        .Links{
+            background-color: rgb(40, 146, 40);
+            font-weight: 800;
+            line-height: 65px;
+            border-radius: 7px;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .Details{
+            background-color: rgb(59, 59, 59);
+            color: #fff;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 40px;
+            font-weight: 400;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .Button{
+            background-color: rgb(40, 146, 40);
+            font-weight: 800;
+            line-height: 60px;
+            padding: 0px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Portfólio Web</h1><br>
+    <h1 class="Borda">Portfólio Web</h1><br>
     <h2 id="Nome">Lucas Henrique Fernandes dos Reis</h2>
     <hr>
     <img id="MinhaFoto" width="200px" src="minha_foto.jpg" alt="Uma foto frontal de Lucas Fernandes">
-    <p>Uma <i>"selfie"</i> minha, sorrindo, dentro do meu quarto em um dia de sol</p>
+    
     <hr>
 <br>
-    <h3 id="Sobre">Sobre mim:</h3>
-    <p>Eu tenho <strong>20 anos</strong>, sou brasileiro e morando atualmente no interior de São Paulo, em uma cidade chamada Uchoa. <strong>Estudando desenvolvimento web na Trybe!</strong>  </p>
+    <h3 id="Sobre" class="About Borda">Sobre mim:</h3>
+    <p>Eu tenho <strong>20 anos</strong>, sou brasileiro e morando atualmente no interior de São Paulo, em uma cidade chamada Uchoa. Tenho habilidade com edição de vídeos e imagens e atualmente estou <strong>estudando desenvolvimento web na Trybe!</strong>  </p>
     <hr>
     <br>
-    <h3>Habilidades:</h3>
- <ul id="Skills">
+    <h3 id="Skills" class="About Borda">Habilidades:</h3>
+ <ul>
      <li><strong>Facilidade de comunicação</strong></li>
-     <li>Paciência</li>
-     <li>Gosto pela música</li>
-     <li>Objetivo</li>
+     <li>Edição de vídeo</li>
+     <li>Edição de imagens</li>
+     <li>Objetividade e clareza</li>
  </ul>   
  <hr>
  <br>
- <a href="#MinhaFoto">Ver foto de Lucas</a>
+ <a class="Links" href="#MinhaFoto">Ver foto de Lucas</a>
 <br>
- <a href="https://adrenaline.com.br/" target="_blank">Blog que acompanho e gosto</a>
+ <a class="Links" href="https://adrenaline.com.br/" target="_blank">Blog que acompanho (Adrenaline)</a>
  <br>
- <a href="https://www.linkedin.com/in/lucasfernandesreis/" target="_blank">Meu Linkedin</a>
+ <a class="Links" href="https://www.linkedin.com/in/lucasfernandesreis/" target="_blank">Meu Linkedin</a>
 
- <h2>Sumário</h2>
+ <h2 class="Details">Sumário</h2>
  <ul>
-     <li><a href="#Nome">Nome completo e foto</a></li>
-     <li><a href="#Sobre">Sobre mim</a></li>
-     <li><a href="#skills">Habilidades pessoais</a></li>
+     <li class="Button"><a href="#Nome">Nome completo e foto</a></li>
+     <li class="Button"><a href="#Sobre">Sobre mim</a></li>
+     <li class="Button"><a href="#Skills">Habilidades pessoais</a></li>
  </ul>
 </body>
 </html>
