@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+* {
+    margin: 0%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+#Nome{
+    font-size: 35px;
+    font-family: monospace;
+}
+#MinhaFoto{
+    border-radius: 8px;
+}
+.About{
+    background-color: rgb(23, 61, 23);
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px 100px;
+}
+h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: #fff;
+    padding: 35px;
+    font-size: 65px;
+}
+.Borda{
+    border-radius: 25px;
+}
+.Links{
+    background-color: rgb(40, 146, 40);
+    font-weight: 800;
+    line-height: 65px;
+    border-radius: 7px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.Details{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Button{
+    background-color: rgb(40, 146, 40);
+    font-weight: 800;
+    line-height: 60px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
+.Links:hover {
+    border: 2px solid black ;
+}
+
+.apresentacao {
+    background-color: #949494;;
+    padding: 40px;
+}
