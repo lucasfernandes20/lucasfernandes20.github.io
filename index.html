@@ -2,54 +2,87 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="hero-title">Portfólio Web</h1><br>
-   <div class="apresentacao">
-        <div class="float-block-rigth">
-            <h2 id="Nome">Lucas Henrique Fernandes dos Reis</h2>
-        </div>
-        <img id="MinhaFoto" width="400px" src="minha_foto.jpg" alt="Uma foto de Lucas Fernandes">
-        
-   </div>
-    <br>
+    <header>
+        <h1>Portfólio Web</h1>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="#" target="_blank" rel="">Apresentação</a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="">Sobre mim</a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="">Habilidades</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section class="apresentacao">
+                <div class="apresentacao-items">
+                    <img src="minha_foto.jpg" alt="fotografia de Lucas Fernandes">
+                    <h2>Lucas Henrique Fernandes dos Reis</h2>
+                    <h3>(ou Kuka)</h3>
+                </div>
+            </section>
+        </article>
+        <hr>
+        <article>
+            <section>
+                <h2>sobre Mim</h2>
+                <p>Olá, me chamo Lucas Fernandes, apelidado carinhosamente de Kuka e tenho atualmente 20 anos de idade. Cresci na cidade de Piracicaba-SP porém hoje resído em Uchôa, interior de São Paulo. </p>
+                <p> Desde criança sou apaixonado pela música e também pela tecnologia, acredito que os dois casam de uma boa forma também. Esse gosto me levaram aos hobbies que tenho hoje: Tocar alguns instrumentos, como guitarra e violão e ajudar pessoas a montar e fazer a manutenção de hardware de seus computadores.</p>
+                <p> Já trabalhei em várias áreas distintas, como garçom, almoxarife, organizador de shows sertaneijo, dentre outros. Agora o meu foco é aprender a programar, para isso entrei na escola de programação <span>Trybe</span> e estou me esforçando para me tornar um bom <span>desenvolvedor Web</span>.</p>
+            </section>
+            <hr>
+            <section>
+                <h2>Habilidades</h2>
+                <p>Aqui estão algumas de minhas habilidades tanto profissionais como sociais:</p>
+                <ul>
+                    <li>Edição de vídeos</li>
+                    <li>Manipulação de imagens</li>
+                    <li>Conhecimento sobre hardware</li>
+                    <li>Técnico em Gestão de Materiais</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>Organização</li>
+                    <li>Responsabilidade</li>
+                    <li>Consciência coletiva</li>
+                    <li>Colaboração</li>
+                    <li>Comunicação eficaz</li>
+                    <li>Clareza e objetivade</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h2>GitHub e meio para contato:</h2>
+                <a target="_blank" href="https://www.linkedin.com/in/lucasfernandesreis/">
+                    <i class="bi bi-linkedin">Linkedin</i>
+                </a>
+                <a target="_blank" href="https://github.com/lucasfernandes20">
+                    <i class="bi bi-github">GitHub</i>
+                </a>
+                <a href="">
+                    <i class="bi bi-envelope">lucas.h.fernandes@gmail.com</i>
+                </a>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Conteúdo compilado por Lucas Fernandes, 14 de Maio de 2021</p>
+    </footer>
     
-    <h3 id='Sobre' class="About">Sobre mim:</h3>
-    <div class="paragrafo-about">
-        <p>Eu tenho <span class="negrito">20 anos</span>, sou brasileiro e morando atualmente no interior de São Paulo, em uma cidade chamada Uchoa. Tenho habilidade com edição de vídeos, manipulação de imagens e atualmente estou <span class="negrito">estudando desenvolvimento web na Trybe!</span>  </p>
-    </div>
-    
-    <br>
-
-    <h3 id='Skills' class="About">Habilidades:</h3>
-
- <div class="skills">
-    <ul>
-        <li><span class="negrito">Facilidade de comunicação</span></li>
-        <li>Edição de vídeo</li>
-        <li>Edição de imagens</li>
-        <li>Objetividade e clareza</li>
-    </ul>   
- </div>
-
-    <br>
-
- <a class="Links" href="#MinhaFoto">Ver foto de Lucas</a>
-    <br>
- <a class="Links" href="https://adrenaline.com.br/" target="_blank">Blog que acompanho (Adrenaline)</a>
-    <br>
- <a class="Links" href="https://www.linkedin.com/in/lucasfernandesreis/" target="_blank">Meu Linkedin</a>
-
- <h2 class="Details">Sumário</h2>
- 
- <div class="sumario">
-    <ul>
-        <li class="Button"><a href="#Nome">Nome completo e foto</a></li>
-        <li class="Button"><a href="#Sobre">Sobre mim</a></li>
-        <li class="Button"><a href="#Skills">Habilidades pessoais</a></li>
-    </ul>
- </div>
 </body>
 </html>
