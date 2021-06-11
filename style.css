@@ -41,6 +41,8 @@ header {
     background-image: url(/blurimage.png);
     min-height: 80vh;
     background-size: cover;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 6px black;
 }
 
 .apresentacao-items {
@@ -64,4 +66,98 @@ header {
     margin: 10px;
     color: rgb(63, 63, 63);
     font-style: italic;
+}
+
+span {
+    font-weight: 900;
+}
+
+.about {
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.about h2 {
+    display: inline-block;
+    background-color: rgb(79, 135, 207);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.paragrafo {
+    margin: 20px;
+}
+
+.list {
+    margin: 0px 30px;
+}
+
+.list-title {
+    text-align: center;    
+}
+
+.list h2 {
+    display: inline-block;
+    background-color: rgb(79, 135, 207);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.list-block {
+    display: flex;
+    border: 3px solid black;
+    border-style: dotted;
+    padding: 40px;
+    width: 400px;
+}
+
+.list-content {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly
+}
+
+.contact {
+    margin: 30px;
+}
+
+.line {
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 135, 207);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact i {
+    font-size: 30px;
+    color: rgb(24, 32, 61);
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
 }
